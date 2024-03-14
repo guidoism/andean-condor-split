@@ -1,10 +1,10 @@
 meta:
   engine: 4.0.5
-  name: corney-island
+  name: andean-condor
   version: 0.2
-  ref: &kb_ref "Corney Island v0.2"
-  author: ceoloide
-  url: &kb_url https://github.com/ceoloide/corney-island
+  ref: &kb_ref "Andean Condor v4"
+  author: guidoism
+  url: &kb_url https://github.com/guidoism/andean-condor-split
   footprint: &switch_footprint "mx"
   # footprint: &switch_footprint "ceoloide/switch_choc_v1_v2"
   switch:
@@ -711,7 +711,7 @@ pcbs:
           hole_size: screw_diameter
           hole_drill: screw_diameter
 
-  _corney_island_baseline:
+  _andean_condor_baseline:
     outlines: &basepcb_outlines
       main:
         outline: _pcb_outline
@@ -811,7 +811,7 @@ pcbs:
         adjust:
           shift: [0, -0.65 kp]
   
-  corney_island:
+  andean_condor:
     outlines:
       <<: *basepcb_outlines
         
@@ -894,7 +894,7 @@ pcbs:
         adjust:
           rotate: 180
 
-  corney_island_wireless:
+  andean_condor_wireless:
     outlines:
       <<: *basepcb_outlines
         
@@ -946,7 +946,7 @@ pcbs:
           shift: [0.5 ks + 7.25, 0.375 kp -45.25]
           rotate: 90
 cases:
-  corney_island_bottom_tray:
+  andean_condor_bottom_tray:
     - what: outline
       name: _bottom_case_walls
       extrude: bottom_plate_thickness + internal_distance_between_plates + top_plate_thickness
