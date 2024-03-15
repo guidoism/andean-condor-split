@@ -5,7 +5,7 @@ container_cmd=docker
 container_args="-w /board -v $(pwd):/board --rm"
 
 # Define the boards to autoroute and export, and the plates
-boards="corney_island_wireless corney_island"
+boards="andean_condor_wireless andean_condor"
 plates="backplate frontplate controller_overlay"
 
 # Define the KiCad Auto Docker image to use
