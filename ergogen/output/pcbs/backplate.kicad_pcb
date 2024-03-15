@@ -134,7 +134,7 @@
   
 
   (module "ceoloide:mounting_hole_npth" (layer F.Cu) (tedit 5F1B9159)
-      (at 227.2307082 129.0614476 -50)
+      (at 220.8028321 121.40100319999999 -50)
       (fp_text reference "MH5" (at 0 2.55 -50) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
       (pad "" np_thru_hole circle (at 0 0 -50) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
@@ -186,7 +186,7 @@
 (gr_circle (center 109.5 90.5) (end 110.6 90.5) (layer Edge.Cuts) (width 0.15))
 (gr_circle (center 185.468 61.361000000000004) (end 186.56799999999998 61.361000000000004) (layer Edge.Cuts) (width 0.15))
 (gr_circle (center 172.7442902 101.1746489) (end 173.8442902 101.1746489) (layer Edge.Cuts) (width 0.15))
-(gr_circle (center 227.2307082 129.0614476) (end 228.3307082 129.0614476) (layer Edge.Cuts) (width 0.15))
+(gr_circle (center 220.8028321 121.40100319999999) (end 221.90283209999998 121.40100319999999) (layer Edge.Cuts) (width 0.15))
             
 )
 
