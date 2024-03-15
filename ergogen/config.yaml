@@ -213,14 +213,14 @@ points:
         tucky:
           key:
             splay: -splay_thumb_tucky
-            column_net: C2
+            column_net: C0
           rows:
             home.key:
         near:
           key:
             splay: -splay_thumb_near
             origin: [-9.5, -9.5]
-            column_net: C3
+            column_net: C1
           rows:
             home.key:
               led_prev: LED_8
@@ -229,7 +229,7 @@ points:
           key:
             splay: -splay_thumb_middle
             origin: [-9.5, -9.5]
-            column_net: C4
+            column_net: C2
           rows:
             home.key:
               led_prev: LED_7
@@ -238,7 +238,7 @@ points:
           key:
             splay: -splay_thumb_far
             origin: [-9.5, -9.5]
-            column_net: C5
+            column_net: C3
             tags:
               - key
               - thumb_key
@@ -252,7 +252,7 @@ points:
             splay: splay_thumb_far
             origin: [-9.5, -9.5]
             shift: [-37.5, 22]
-            column_net: C6
+            column_net: C5
           rows:
             home.key:
       rows:
