@@ -904,48 +904,48 @@ pcbs:
           shift: [0.5 ks +19.61, 0.375 kp -50.31]
           rotate: -90
           
-      per_key_leds:
-        what: ceoloide/led_sk6812mini-e
-        where: /key/
-        params:
-          P1: VCC
-          P2: "{{key.led_next}}" #DOUT
-          P3: GND
-          P4: "{{key.led_prev}}" #DIN
-          reversible: true
-          reverse_mount: true
-          include_traces_vias: true
-          via_size: via_size
-          via_drill: via_drill
-          include_keepout: false
-          include_courtyard: false
-          signal_trace_width: signal_trace_width
-          gnd_trace_width: gnd_trace_width
-          vcc_trace_width: pwr_trace_width
-        adjust:
-          shift: [led_pos_x, led_pos_y]
-          rotate: led_rotation
-      
-      underglow_leds:
-        what: ceoloide/led_sk6812mini-e
-        where: [underglow]
-        params:
-          P1: VCC
-          P2: "{{zone.key.dout}}" #DOUT
-          P3: GND
-          P4: "{{zone.key.din}}" #DIN
-          reversible: true
-          reverse_mount: false
-          include_traces_vias: true
-          via_size: via_size
-          via_drill: via_drill
-          include_keepout: false
-          include_courtyard: false
-          signal_trace_width: signal_trace_width
-          gnd_trace_width: gnd_trace_width
-          vcc_trace_width: pwr_trace_width
-        adjust:
-          rotate: 180
+#      per_key_leds:
+#        what: ceoloide/led_sk6812mini-e
+#        where: /key/
+#        params:
+#          P1: VCC
+#          P2: "{{key.led_next}}" #DOUT
+#          P3: GND
+#          P4: "{{key.led_prev}}" #DIN
+#          reversible: true
+#          reverse_mount: true
+#          include_traces_vias: true
+#          via_size: via_size
+#          via_drill: via_drill
+#          include_keepout: false
+#          include_courtyard: false
+#          signal_trace_width: signal_trace_width
+#          gnd_trace_width: gnd_trace_width
+#          vcc_trace_width: pwr_trace_width
+#        adjust:
+#          shift: [led_pos_x, led_pos_y]
+#          rotate: led_rotation
+#      
+#      underglow_leds:
+#        what: ceoloide/led_sk6812mini-e
+#        where: [underglow]
+#        params:
+#          P1: VCC
+#          P2: "{{zone.key.dout}}" #DOUT
+#          P3: GND
+#          P4: "{{zone.key.din}}" #DIN
+#          reversible: true
+#          reverse_mount: false
+#          include_traces_vias: true
+#          via_size: via_size
+#          via_drill: via_drill
+#          include_keepout: false
+#          include_courtyard: false
+#          signal_trace_width: signal_trace_width
+#          gnd_trace_width: gnd_trace_width
+#          vcc_trace_width: pwr_trace_width
+#        adjust:
+#          rotate: 180
 
   corney_island_wireless:
     outlines:
