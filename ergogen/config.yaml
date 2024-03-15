@@ -360,6 +360,12 @@ points:
       anchor: 
         - ref: thumbfan_far_home
           shift: [ks * 0.47 + 0.01, kp * 0.475 + 0.05]
+    plate_outline_bottom_8:
+      key.tags:
+        - helper
+      anchor: 
+        - ref: thumbfan_far_home
+          shift: [0, kp * 0.475 + 0.05]
           
     mcu_cover_top_left:
       key.tags:
@@ -558,6 +564,7 @@ outlines:
         - ref: plate_additional_outline_top
         - ref: plate_additional_outline_bottom_left
         - ref: plate_additional_outline_bottom_right
+        - ref: plate_outline_bottom_8
         - ref: plate_outline_bottom_7
         - ref: plate_outline_bottom_6
         - ref: plate_outline_bottom_5
