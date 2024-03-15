@@ -741,7 +741,7 @@ pcbs:
           hole_size: screw_diameter
           hole_drill: screw_diameter
 
-  _andean_condor_baseline:
+  _corney_island_baseline:
     outlines: &basepcb_outlines
       main:
         outline: _pcb_outline
@@ -841,7 +841,7 @@ pcbs:
         adjust:
           shift: [0, -0.65 kp]
   
-  andean_condor:
+  corney_island:
     outlines:
       <<: *basepcb_outlines
         
@@ -924,7 +924,7 @@ pcbs:
         adjust:
           rotate: 180
 
-  andean_condor_wireless:
+  corney_island_wireless:
     outlines:
       <<: *basepcb_outlines
         
@@ -976,7 +976,7 @@ pcbs:
           shift: [0.5 ks + 7.25, 0.375 kp -45.25]
           rotate: 90
 cases:
-  andean_condor_bottom_tray:
+  corney_island_bottom_tray:
     - what: outline
       name: _bottom_case_walls
       extrude: bottom_plate_thickness + internal_distance_between_plates + top_plate_thickness

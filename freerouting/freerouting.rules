@@ -1,4 +1,4 @@
-(rules PCB andean_condor
+(rules PCB corney_island
   (snap_angle 
     fortyfive_degree
   )
