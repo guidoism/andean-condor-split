@@ -790,7 +790,7 @@ pcbs:
         where: /key/
         params:
           reverse: true
-          hotswap: true
+          hotswap: false
           from: "{{column_net}}"
           to: "{{colrow}}"
           # The following parameters are specific to choc_v1_v2
