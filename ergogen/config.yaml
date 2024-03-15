@@ -458,13 +458,14 @@ points:
       anchor:
         - ref: thumbfan_near_home
           shift: [-0.5 ks -4.343, kp * 0.375 +0.01]
-    screw_pcb_thumbfan_right:
-      key.tags:
-        - helper
-        - screw
-      anchor:
-        - ref: thumbfan_far_home
-          shift: [-20, 0.5 kp +2.631]
+    # GUIDO: removed this because I'm putting another switch right there
+    #screw_pcb_thumbfan_right:
+    #  key.tags:
+    #    - helper
+    #    - screw
+    #  anchor:
+    #    - ref: thumbfan_far_home
+    #      shift: [-20, 0.5 kp +2.631]
     screw_mcu_cover_left:
       key.tags:
         - helper
@@ -848,12 +849,12 @@ pcbs:
       
       jlcpcb_order_number_text:
         what: ceoloide/text
-        where: matrix_ring_bottom
+        where: matrix_ring_home
         params:
           text: JLCJLCJLCJLC
           reversible: true
         adjust:
-          shift: [0, -0.65 kp]
+          shift: [0, -0.65 kp + 2]
   
   corney_island:
     outlines:
