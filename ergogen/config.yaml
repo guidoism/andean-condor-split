@@ -464,7 +464,7 @@ points:
         - screw
       anchor:
         - ref: thumbfan_far_home
-          shift: [-10, 0.5 kp +2.631]
+          shift: [-20, 0.5 kp +2.631]
     screw_mcu_cover_left:
       key.tags:
         - helper
