@@ -247,6 +247,14 @@ points:
             home.key:
               led_prev: ULED_6
               led_next: LED_1
+        reachy:
+          key:
+            splay: splay_thumb_far
+            origin: [-9.5, -9.5]
+            shift: [-37.5, 22]
+            column_net: C6
+          rows:
+            home.key:
       rows:
         home:
           row_net: R3
