@@ -91,6 +91,8 @@ units:
   internal_distance_between_plates: 4
 
   # Thumb splay
+  splay_thumb_tucky: 5
+  splay_thumb_near: 15
   splay_thumb_middle: 15
   splay_thumb_far: 15
 
@@ -107,7 +109,7 @@ points:
       anchor:
         rotate: hand_rotation
         shift: [100, -100] # Fix KiCad placement
-      columns:
+      columns: 
         outer:
           key:
             column_net: C0
@@ -136,7 +138,7 @@ points:
               led_next: LED_16
         ring:
           key:
-            stagger: 0.25 kp
+            stagger: 12 # 12 = 12/19 = 0.63 kp
             column_net: C2
           rows:
             top.key:
@@ -150,7 +152,7 @@ points:
               led_next: LED_15
         middle:
           key:
-            stagger: 0.125 kp
+            stagger: 5 # 5 = 5/19 = 0.26 kp
             column_net: C3
           rows:
             top.key:
@@ -164,7 +166,7 @@ points:
               led_next: LED_10
         index:
           key:
-            stagger: -0.125 kp
+            stagger: -6 # -6 = -6/19 = 0.32 kp
             column_net: C4
           rows:
             top.key:
@@ -178,7 +180,7 @@ points:
               led_next: LED_7
         inner:
           key:
-            stagger: -0.125 kp
+            stagger: -2 # -2 = -2/19 = 0.11 kp
             column_net: C5
           rows:
             top.key:
@@ -201,18 +203,23 @@ points:
     # Thumb cluster
     thumbfan:
       key:
-        padding: 0
-        spread: 0
-        stagger: 0
         tags:
           - key
           - thumb_key
       anchor:
         ref: matrix_middle_bottom
-        shift: [0.5 ks, -kp -3]
+        shift: [5.5, -25]
       columns:
+        tucky:
+          key:
+            splay: -splay_thumb_tucky
+            column_net: C2
+          rows:
+            home.key:
         near:
           key:
+            splay: -splay_thumb_near
+            origin: [-9.5, -9.5]
             column_net: C3
           rows:
             home.key:
@@ -221,9 +228,8 @@ points:
         mid:
           key:
             splay: -splay_thumb_middle
+            origin: [-9.5, -9.5]
             column_net: C4
-            stagger: -2.750
-            spread: ks + 2
           rows:
             home.key:
               led_prev: LED_7
@@ -231,10 +237,8 @@ points:
         far:
           key:
             splay: -splay_thumb_far
-            rotate: 90
+            origin: [-9.5, -9.5]
             column_net: C5
-            stagger: 2.122
-            spread: ks + 3.463
             tags:
               - key
               - thumb_key
@@ -324,23 +328,39 @@ points:
       key.tags:
         - helper
       anchor:
-        - ref: thumbfan_near_home
+        - ref: thumbfan_tucky_home
           shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
     plate_outline_bottom_3:
       key.tags:
         - helper
       anchor: 
-        - ref: thumbfan_far_home
-          shift: [-ks * 0.725 - 0.028,kp * 0.475 - 0.009]
-          affect: ['x','y']
+        - ref: thumbfan_near_home
+          shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
     plate_outline_bottom_4:
       key.tags:
         - helper
       anchor: 
+        - ref: thumbfan_mid_home
+          shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
+    plate_outline_bottom_5:
+      key.tags:
+        - helper
+      anchor: 
         - ref: thumbfan_far_home
-          shift: [-ks * 0.725 - 0.028,-kp * 0.48 + 0.023]
-          affect: ['x','y']
-
+          shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
+    plate_outline_bottom_6:
+      key.tags:
+        - helper
+      anchor: 
+        - ref: thumbfan_far_home
+          shift: [ks * 0.47 + 0.01, -kp * 0.475 - 0.05]
+    plate_outline_bottom_7:
+      key.tags:
+        - helper
+      anchor: 
+        - ref: thumbfan_far_home
+          shift: [ks * 0.47 + 0.01, kp * 0.475 + 0.05]
+          
     mcu_cover_top_left:
       key.tags:
         - helper
@@ -518,17 +538,17 @@ outlines:
         - ref: matrix_outer_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_ring_top
-          shift: [-ks * 0.47 +0.01, kp * 0.225 -0.014]
+          shift: [-ks * 0.47 +0.01, kp * -0.15 -0.015]
         - ref: matrix_ring_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_middle_top
-          shift: [-ks * 0.47 +0.01, kp * 0.35 -0.015]
+          shift: [-ks * 0.47 +0.01, kp * 0.210 -0.015]
         - ref: matrix_middle_top
           shift: [-ks * 0.47 +0.01, kp * 0.468 -0.005]
         - ref: matrix_middle_top
           shift: [ks * 0.478, kp * 0.468 -0.005]
         - ref: matrix_middle_top
-          shift: [ks * 0.478, kp * 0.35 -0.015]
+          shift: [ks * 0.478, kp * 0.175 -0.015]
         - ref: matrix_index_top
           shift: [ks * 0.478, kp * 0.475 -0.015]
         - ref: matrix_index_top
@@ -538,6 +558,9 @@ outlines:
         - ref: plate_additional_outline_top
         - ref: plate_additional_outline_bottom_left
         - ref: plate_additional_outline_bottom_right
+        - ref: plate_outline_bottom_7
+        - ref: plate_outline_bottom_6
+        - ref: plate_outline_bottom_5
         - ref: plate_outline_bottom_4
         - ref: plate_outline_bottom_3
         - ref: plate_outline_bottom_2
