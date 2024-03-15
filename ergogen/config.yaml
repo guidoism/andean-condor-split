@@ -323,7 +323,7 @@ points:
         - helper
       anchor:
         - ref: matrix_ring_bottom
-          shift: [ks * 0.465 + 0.005, -kp * 0.74 + 0.07]
+          shift: [ks * 0.465 + 0.005, -kp * 1.12 + 0.07]
     plate_outline_bottom_2:
       key.tags:
         - helper
