@@ -548,11 +548,11 @@ outlines:
         - ref: matrix_middle_top
           shift: [ks * 0.478, kp * 0.468 -0.005]
         - ref: matrix_middle_top
-          shift: [ks * 0.478, kp * 0.175 -0.015]
+          shift: [ks * 0.478, kp * 0.160 -0.015]
         - ref: matrix_index_top
           shift: [ks * 0.478, kp * 0.475 -0.015]
         - ref: matrix_index_top
-          shift: [ks * 0.478, kp * 0.34 +0.052]
+          shift: [ks * 0.478, kp * 0.360 +0.052]
         - ref: matrix_inner_top
           shift: [ks * 0.478, kp * 0.468 -0.005]
         - ref: plate_additional_outline_top
