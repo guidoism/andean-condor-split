@@ -364,8 +364,8 @@ points:
       key.tags:
         - helper
       anchor: 
-        - ref: thumbfan_far_home
-          shift: [0, kp * 0.475 + 0.05]
+        - ref: thumbfan_mid_home
+          shift: [ks * 0.47 + 0.01, kp * 0.475 + 0.05]
           
     mcu_cover_top_left:
       key.tags:
