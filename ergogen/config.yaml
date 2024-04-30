@@ -110,6 +110,7 @@ points:
       columns:
         pinky:
           key:
+            splay: 5
             column_net: C1
           rows:
             top.key:
@@ -123,6 +124,7 @@ points:
               led_next: LED_16
         ring:
           key:
+            splay: -5
             stagger: 0.63 kp
             column_net: C2
           rows:
@@ -505,7 +507,7 @@ outlines:
         - ref: matrix_pinky_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_ring_top
-          shift: [-ks * 0.47 +0.01, kp * 0.225 -0.014 -7]
+          shift: [-ks * 0.47 +0.01, kp * 0.225 -0.014 -8]
         - ref: matrix_ring_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_middle_top
