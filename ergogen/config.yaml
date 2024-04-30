@@ -307,7 +307,7 @@ points:
       key.tags:
         - helper
       anchor:
-        - ref: matrix_ring_bottom
+        - ref: matrix_middle_bottom
           shift: [ks * 0.465 + 0.005, -kp * 0.74 + 0.07 -7]
     plate_outline_bottom_2:
       key.tags:
@@ -418,14 +418,14 @@ points:
         - screw
       anchor:
         - ref: thumbfan_near_home
-          shift: [-0.5 ks -4.343, kp * 0.375 +0.01]
+          shift: [-0.5 ks -3, kp * 0.375 +0.01]
     screw_pcb_thumbfan_right:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: thumbfan_far_home
-          shift: [0, 0.5 kp +2.631]
+        - ref: thumbfan_mid_home
+          shift: [0.6 ks, 0]
     screw_mcu_cover_left:
       key.tags:
         - helper
