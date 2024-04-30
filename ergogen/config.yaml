@@ -108,19 +108,6 @@ points:
         rotate: hand_rotation
         shift: [100, -100] # Fix KiCad placement
       columns:
-        outer:
-          key:
-            column_net: C0
-          rows:
-            top.key:
-              led_prev: LED_18
-              led_next: LED_19
-            home.key:
-              led_prev: LED_19
-              led_next: LED_20
-            bottom.key:
-              led_prev: LED_20
-              led_next: LED_21
         pinky:
           key:
             column_net: C1
@@ -515,7 +502,7 @@ outlines:
   _matrix_outline:
     - what: polygon
       points:
-        - ref: matrix_outer_top
+        - ref: matrix_pinky_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_ring_top
           shift: [-ks * 0.47 +0.01, kp * 0.225 -0.014]
@@ -542,7 +529,7 @@ outlines:
         - ref: plate_outline_bottom_3
         - ref: plate_outline_bottom_2
         - ref: plate_outline_bottom_1
-        - ref: matrix_outer_bottom
+        - ref: matrix_pinky_bottom
           shift: [-ks * 0.47 +0.012, -kp * 0.485 -0.025]
   _plate_outline:
     - what: outline
@@ -582,7 +569,7 @@ outlines:
       expand:  -2 * case_wall_thickness
       fillet: 0.5
       joints: 1
-  _bottom_case_outer_outline:
+  _bottom_case_pinky_outline:
     - what: outline
       name: _backplate_outline
       expand: case_wall_thickness + pcb_to_case_wall_tolerance
@@ -596,7 +583,7 @@ outlines:
       joints: 1
   _bottom_case_walls:
     - what: outline
-      name: _bottom_case_outer_outline
+      name: _bottom_case_pinky_outline
     - what: outline
       name: _bottom_case_inner_outline
       operation: subtract
@@ -668,7 +655,7 @@ outlines:
       name: _bottom_case_walls
       operation: stack
     - what: outline
-      name: _bottom_case_outer_outline
+      name: _bottom_case_pinky_outline
       operation: stack
     - what: outline
       name: _bottom_case_superlight_inner_outline
@@ -964,7 +951,7 @@ cases:
       shift: [-75, 0, bottom_plate_thickness]
       operation: subtract
     - what: outline
-      name: _bottom_case_outer_outline
+      name: _bottom_case_pinky_outline
       extrude: bottom_plate_thickness
       shift: [-75,0,0]
     # - what: outline
