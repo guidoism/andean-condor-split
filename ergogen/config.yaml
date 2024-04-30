@@ -303,12 +303,24 @@ points:
         - ref: matrix_inner_bottom
           shift: [0, vertical_underglow_shift]
 
+    plate_outline_bottom_0:
+      key.tags:
+        - helper
+      anchor:
+        - ref: matrix_pinky_bottom
+          shift: [0.5 ks, -0.5 kp]
+    plate_outline_bottom_0a:
+      key.tags:
+        - helper
+      anchor:
+        - ref: matrix_ring_bottom
+          shift: [-0.5 ks, -0.5 kp]
     plate_outline_bottom_1:
       key.tags:
         - helper
       anchor:
-        - ref: matrix_middle_bottom
-          shift: [ks * 0.465 + 0.005, -kp * 0.74 + 0.07 -7]
+        - ref: matrix_index_bottom
+          shift: [-0.5 ks, -0.5 kp]
     plate_outline_bottom_2:
       key.tags:
         - helper
@@ -339,6 +351,12 @@ points:
       anchor: 
         - ref: thumbfan_far_home
           shift: [ks*.5, kp*.5]
+    plate_outline_bottom_4a:
+      key.tags:
+        - helper
+      anchor: 
+        - ref: matrix_inner_bottom
+          shift: [.5 ks, -.5 kp]
 
     mcu_cover_top_left:
       key.tags:
@@ -357,7 +375,7 @@ points:
         - helper
       anchor:
         - ref: mcu_cover_top_right
-          shift: [0,-kp * 3.2 + 0.339]
+          shift: [0,-3 kp + 2]
           rotate: (splay_thumb_middle + splay_thumb_far) * 2
     mcu_cover_bottom_left:
       key.tags:
@@ -426,20 +444,20 @@ points:
       anchor:
         - ref: thumbfan_mid_home
           shift: [0.6 ks, 0]
-    screw_mcu_cover_left:
-      key.tags:
-        - helper
-        - screw
-      anchor:
-        - ref: matrix_inner_bottom
-          shift: [0.67 ks + 0.032, -0.15 kp -0.001]
-    screw_mcu_cover_right:
-      key.tags:
-        - helper
-        - screw
-      anchor:
-        - ref: matrix_inner_bottom
-          shift: [1.45 ks - 0.356, -0.6 ks +0.03]
+#    screw_mcu_cover_left:
+#      key.tags:
+#        - helper
+#        - screw
+#      anchor:
+#        - ref: matrix_inner_bottom
+#          shift: [0.67 ks + 0.032, -0.15 kp -0.001]
+#    screw_mcu_cover_right:
+#      key.tags:
+#        - helper
+#        - screw
+#      anchor:
+#        - ref: matrix_inner_bottom
+#          shift: [1.45 ks, -0.6 ks]
 
 outlines:
   _debug_points:
@@ -537,12 +555,15 @@ outlines:
         - ref: plate_additional_outline_top
         - ref: plate_additional_outline_bottom_left
         - ref: plate_additional_outline_bottom_right
+        - ref: plate_outline_bottom_4a
         - ref: plate_outline_bottom_4
         - ref: plate_outline_bottom_3
         - ref: plate_outline_bottom_2b
         - ref: plate_outline_bottom_2a
         - ref: plate_outline_bottom_2
         - ref: plate_outline_bottom_1
+        - ref: plate_outline_bottom_0a
+        - ref: plate_outline_bottom_0
         - ref: matrix_pinky_bottom
           shift: [-ks * 0.47 +0.012, -kp * 0.485 -0.025]
   _plate_outline:
@@ -742,7 +763,7 @@ pcbs:
         where: /key/
         params:
           reverse: true
-          hotswap: true
+          hotswap: false
           from: "{{column_net}}"
           to: "{{colrow}}"
           # The following parameters are specific to choc_v1_v2
