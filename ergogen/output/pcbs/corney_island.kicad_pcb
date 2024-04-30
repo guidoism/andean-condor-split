@@ -215,16 +215,16 @@
   
 
   (module "ceoloide:mounting_hole_npth" (layer F.Cu) (tedit 5F1B9159)
-      (at 132.541445 96.3445903 0)
-      (fp_text reference "MH6" (at 0 2.55 0) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
-      (pad "" np_thru_hole circle (at 0 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+      (at 148.8598077 99.0848776 -15)
+      (fp_text reference "MH6" (at 0 2.55 -15) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
+      (pad "" np_thru_hole circle (at 0 0 -15) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
   
 
   (module "ceoloide:mounting_hole_npth" (layer F.Cu) (tedit 5F1B9159)
-      (at 177.7998255 108.87572 60)
-      (fp_text reference "MH7" (at 0 2.55 60) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
-      (pad "" np_thru_hole circle (at 0 0 60) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+      (at 206.488576 122.90275019999999 -45)
+      (fp_text reference "MH7" (at 0 2.55 -45) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
+      (pad "" np_thru_hole circle (at 0 0 -45) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
   
 
@@ -920,7 +920,7 @@
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 146.384445 103.4795903 0)
+      (at 160.384445 109.5595904 -15)
 
       
       (fp_text reference "S16" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -950,8 +950,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 9 "C3"))
-        (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "near_home"))
+        (pad 1 smd rect (at -7.085 -2.54 -15) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 9 "C3"))
+        (pad 2 smd rect (at 5.842 -5.08 -15) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "near_home"))
         
         
         
@@ -959,14 +959,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 9 "C3"))
-        (pad 2 smd rect (at -5.842 -5.08 0) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 21 "near_home"))
+        (pad 1 smd rect (at 7.085 -2.54 -15) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 9 "C3"))
+        (pad 2 smd rect (at -5.842 -5.08 -15) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 21 "near_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 167.384445 106.2295903 -15)
+      (at 179.957135 117.6510864 -30)
 
       
       (fp_text reference "S17" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -996,8 +996,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 -15) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 13 "C4"))
-        (pad 2 smd rect (at 5.842 -5.08 -15) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "mid_home"))
+        (pad 1 smd rect (at -7.085 -2.54 -30) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 13 "C4"))
+        (pad 2 smd rect (at 5.842 -5.08 -30) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "mid_home"))
         
         
         
@@ -1005,14 +1005,14 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 -15) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 13 "C4"))
-        (pad 2 smd rect (at -5.842 -5.08 -15) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 22 "mid_home"))
+        (pad 1 smd rect (at 7.085 -2.54 -30) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 13 "C4"))
+        (pad 2 smd rect (at -5.842 -5.08 -30) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 22 "mid_home"))
         )
         
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 188.3055797 114.94122 60)
+      (at 197.9106636 131.4806626 -45)
 
       
       (fp_text reference "S18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1042,8 +1042,8 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 60) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "C5"))
-        (pad 2 smd rect (at 5.842 -5.08 60) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "far_home"))
+        (pad 1 smd rect (at -7.085 -2.54 -45) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "C5"))
+        (pad 2 smd rect (at 5.842 -5.08 -45) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "far_home"))
         
         
         
@@ -1051,8 +1051,8 @@
         (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at 7.085 -2.54 60) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 17 "C5"))
-        (pad 2 smd rect (at -5.842 -5.08 60) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 23 "far_home"))
+        (pad 1 smd rect (at 7.085 -2.54 -45) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 17 "C5"))
+        (pad 2 smd rect (at -5.842 -5.08 -45) (size 2.55 2.5) (layers F.Cu F.Paste F.Mask) (net 23 "far_home"))
         )
         
 
@@ -1312,8 +1312,8 @@
         
 
         (module "ceoloide:diode_tht_sod123" (layer B.Cu) (tedit 5B24D78E)
-            (at 153.784445 102.1545903 90)
-            (fp_text reference "D16" (at 0 0 90) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (at 167.8752313 110.1949996 75)
+            (fp_text reference "D16" (at 0 0 75) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
         
             (fp_line (start 0.25 0) (end 0.75 0) (layer B.SilkS) (width 0.1))
             (fp_line (start 0.25 0.4) (end -0.35 0) (layer B.SilkS) (width 0.1))
@@ -1322,32 +1322,15 @@
             (fp_line (start -0.35 0) (end -0.35 0.55) (layer B.SilkS) (width 0.1))
             (fp_line (start -0.35 0) (end -0.35 -0.55) (layer B.SilkS) (width 0.1))
             (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
-            (pad 2 smd rect (at 1.65 0 90) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 21 "near_home"))
-            (pad 1 smd rect (at -1.65 0 90) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 27 "R3"))
-        
-        )
-        
-
-        (module "ceoloide:diode_tht_sod123" (layer B.Cu) (tedit 5B24D78E)
-            (at 174.8752313 106.8649995 75)
-            (fp_text reference "D17" (at 0 0 75) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
-        
-            (fp_line (start 0.25 0) (end 0.75 0) (layer B.SilkS) (width 0.1))
-            (fp_line (start 0.25 0.4) (end -0.35 0) (layer B.SilkS) (width 0.1))
-            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer B.SilkS) (width 0.1))
-            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer B.SilkS) (width 0.1))
-            (fp_line (start -0.35 0) (end -0.35 0.55) (layer B.SilkS) (width 0.1))
-            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer B.SilkS) (width 0.1))
-            (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
-            (pad 2 smd rect (at 1.65 0 75) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 22 "mid_home"))
+            (pad 2 smd rect (at 1.65 0 75) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 21 "near_home"))
             (pad 1 smd rect (at -1.65 0 75) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 27 "R3"))
         
         )
         
 
         (module "ceoloide:diode_tht_sod123" (layer B.Cu) (tedit 5B24D78E)
-            (at 190.85809600000002 107.870132 150)
-            (fp_text reference "D18" (at 0 0 150) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (at 187.028223 120.20360269999999 60)
+            (fp_text reference "D17" (at 0 0 60) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
         
             (fp_line (start 0.25 0) (end 0.75 0) (layer B.SilkS) (width 0.1))
             (fp_line (start 0.25 0.4) (end -0.35 0) (layer B.SilkS) (width 0.1))
@@ -1356,8 +1339,25 @@
             (fp_line (start -0.35 0) (end -0.35 0.55) (layer B.SilkS) (width 0.1))
             (fp_line (start -0.35 0) (end -0.35 -0.55) (layer B.SilkS) (width 0.1))
             (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
-            (pad 2 smd rect (at 1.65 0 150) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 23 "far_home"))
-            (pad 1 smd rect (at -1.65 0 150) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 27 "R3"))
+            (pad 2 smd rect (at 1.65 0 60) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 22 "mid_home"))
+            (pad 1 smd rect (at -1.65 0 60) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 27 "R3"))
+        
+        )
+        
+
+        (module "ceoloide:diode_tht_sod123" (layer B.Cu) (tedit 5B24D78E)
+            (at 204.0801703 135.7763363 45)
+            (fp_text reference "D18" (at 0 0 45) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer B.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer B.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer B.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer B.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer B.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer B.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
+            (pad 2 smd rect (at 1.65 0 45) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 23 "far_home"))
+            (pad 1 smd rect (at -1.65 0 45) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 27 "R3"))
         
         )
         
@@ -1618,25 +1618,8 @@
         
 
         (module "ceoloide:diode_tht_sod123" (layer F.Cu) (tedit 5B24D78E)
-            (at 138.984445 102.1545903 90)
-            (fp_text reference "D34" (at 0 0 90) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
-        
-            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
-            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
-            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
-            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
-            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
-            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
-            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
-            (pad 1 smd rect (at -1.65 0 90) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 27 "R3"))
-            (pad 2 smd rect (at 1.65 0 90) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 21 "near_home"))
-        
-        )
-        
-
-        (module "ceoloide:diode_tht_sod123" (layer F.Cu) (tedit 5B24D78E)
-            (at 160.5795291 103.0344776 75)
-            (fp_text reference "D35" (at 0 0 75) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (at 153.5795291 106.36447770000001 75)
+            (fp_text reference "D34" (at 0 0 75) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
         
             (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
             (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
@@ -1646,14 +1629,14 @@
             (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
             (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
             (pad 1 smd rect (at -1.65 0 75) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 27 "R3"))
-            (pad 2 smd rect (at 1.65 0 75) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 22 "mid_home"))
+            (pad 2 smd rect (at 1.65 0 75) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 21 "near_home"))
         
         )
         
 
         (module "ceoloide:diode_tht_sod123" (layer F.Cu) (tedit 5B24D78E)
-            (at 183.458096 120.687308 150)
-            (fp_text reference "D36" (at 0 0 150) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (at 174.211047 112.8036027 60)
+            (fp_text reference "D35" (at 0 0 60) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
         
             (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
             (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
@@ -1662,8 +1645,25 @@
             (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
             (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
             (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
-            (pad 1 smd rect (at -1.65 0 150) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 27 "R3"))
-            (pad 2 smd rect (at 1.65 0 150) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 23 "far_home"))
+            (pad 1 smd rect (at -1.65 0 60) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 27 "R3"))
+            (pad 2 smd rect (at 1.65 0 60) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 22 "mid_home"))
+        
+        )
+        
+
+        (module "ceoloide:diode_tht_sod123" (layer F.Cu) (tedit 5B24D78E)
+            (at 193.61498989999998 125.31115589999999 45)
+            (fp_text reference "D36" (at 0 0 45) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 45) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 27 "R3"))
+            (pad 2 smd rect (at 1.65 0 45) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 23 "far_home"))
         
         )
         
@@ -4072,9 +4072,9 @@
 
       (module "ceoloide:led_SK6812mini-e (per-key, reversible)" 
         (layer B.Cu) (tedit 5F70BC98)
-        (at 146.384445 108.2295903 180)
+        (at 159.1550545 114.1477381 165)
 
-        (fp_text reference "LED16" (at -4.75 0 270) (layer B.SilkS) hide
+        (fp_text reference "LED16" (at -4.75 0 255) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)))
         )
 
@@ -4102,100 +4102,17 @@
     
         (fp_line (start -3.8 1.6) (end -2.2 1.6) (layer F.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 1.6) (layer F.SilkS) (width 0.12))
-        (pad 4 smd rect (at -2.7 -0.7 180) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 89 "LED_8"))
-        (pad 3 smd rect (at -2.7 0.7 180) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 29 "GND"))
-        (pad 1 smd rect (at 2.7 -0.7 180) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 31 "VCC"))
-        (pad 2 smd rect (at 2.7 0.7 180) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 80 "LED_9"))
-        
-        (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
-        (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 80 "LED_9"))
-        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 89 "LED_8"))
-      
-    (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
-    (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
-    (fp_line (start -1 -1.4) (end -1 1.4) (layer Dwgs.User) (width 0.12))
-    (fp_line (start 1 -1.4) (end 1 1.4) (layer Dwgs.User) (width 0.12))
-    
-        (fp_line (start -1.8 -1.55) (end -1.8 1.55) (layer Edge.Cuts) (width 0.12))
-        (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
-        (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
-        (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
-      )
-    
-      
-      (segment (start 142.984 108.930) (end 142.324 108.336) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 142.324 108.336) (end 142.324 107.530) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 143.684 108.930) (end 142.984 108.930) (width 0.25) (layer "F.Cu") (net 31))
-      (via (at 142.324 107.530) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
-      (segment (start 143.684 107.530) (end 142.324 107.530) (width 0.25) (layer "B.Cu") (net 31))
-      
-      (segment (start 141.434 108.930) (end 143.684 108.930) (width 0.15) (layer "B.Cu") (net 80))
-      (via (at 141.434 108.930) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 80))
-      (segment (start 143.684 107.530) (end 142.903 106.745) (width 0.15) (layer "F.Cu") (net 80))
-      (segment (start 142.903 106.745) (end 141.855 106.745) (width 0.15) (layer "F.Cu") (net 80))
-      (segment (start 141.434 107.170) (end 141.434 108.930) (width 0.15) (layer "F.Cu") (net 80))
-      (segment (start 141.855 106.745) (end 141.434 107.170) (width 0.15) (layer "F.Cu") (net 80))
-      
-      (segment (start 149.784 108.930) (end 150.444 108.336) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 150.444 108.336) (end 150.444 107.530) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 149.084 108.930) (end 149.784 108.930) (width 0.25) (layer "B.Cu") (net 29))
-      (via (at 150.444 107.530) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
-      (segment (start 149.084 107.530) (end 150.444 107.530) (width 0.25) (layer "F.Cu") (net 29))
-      
-      (segment (start 151.334 108.930) (end 149.084 108.930) (width 0.15) (layer "F.Cu") (net 89))
-      (via (at 151.334 108.930) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 89))
-      (segment (start 149.084 107.530) (end 149.865 106.745) (width 0.15) (layer "B.Cu") (net 89))
-      (segment (start 149.865 106.745) (end 150.913 106.745) (width 0.15) (layer "B.Cu") (net 89))
-      (segment (start 151.334 107.170) (end 151.334 108.930) (width 0.15) (layer "B.Cu") (net 89))
-      (segment (start 150.913 106.745) (end 151.334 107.170) (width 0.15) (layer "B.Cu") (net 89))
-    
-
-      (module "ceoloide:led_SK6812mini-e (per-key, reversible)" 
-        (layer B.Cu) (tedit 5F70BC98)
-        (at 166.1550545 110.81773799999999 165)
-
-        (fp_text reference "LED17" (at -4.75 0 255) (layer B.SilkS) hide
-          (effects (font (size 1 1) (thickness 0.15)))
-        )
-
-        (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 1.6 -1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -1.6 -1.05) (end -2.94 -1.05) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -2.94 -1.05) (end -2.94 -0.37) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -2.94 -0.37) (end -1.6 -0.37) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -1.6 0.35) (end -2.94 0.35) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -2.94 1.03) (end -1.6 1.03) (layer Dwgs.User) (width 0.12))
-        (fp_line (start -2.94 0.35) (end -2.94 1.03) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 1.6 1.03) (end 2.94 1.03) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 2.94 0.35) (end 1.6 0.35) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 2.94 1.03) (end 2.94 0.35) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 1.6 -0.37) (end 2.94 -0.37) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer Dwgs.User) (width 0.12))
-        (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer Dwgs.User) (width 0.12))
-    
-    (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
-    (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
-    (fp_line (start -1 -1.4) (end -1 1.4) (layer Dwgs.User) (width 0.12))
-    (fp_line (start 1 -1.4) (end 1 1.4) (layer Dwgs.User) (width 0.12))
-    
-        (fp_line (start -3.8 1.6) (end -2.2 1.6) (layer F.SilkS) (width 0.12))
-        (fp_line (start -3.8 0) (end -3.8 1.6) (layer F.SilkS) (width 0.12))
-        (pad 4 smd rect (at -2.7 -0.7 165) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 82 "LED_7"))
+        (pad 4 smd rect (at -2.7 -0.7 165) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 89 "LED_8"))
         (pad 3 smd rect (at -2.7 0.7 165) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 29 "GND"))
         (pad 1 smd rect (at 2.7 -0.7 165) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 31 "VCC"))
-        (pad 2 smd rect (at 2.7 0.7 165) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 89 "LED_8"))
+        (pad 2 smd rect (at 2.7 0.7 165) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 80 "LED_9"))
         
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 165) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 89 "LED_8"))
+        (pad 2 smd rect (at 2.70 -0.7 165) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 80 "LED_9"))
         (pad 1 smd rect (at 2.70 0.7 165) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "VCC"))
         (pad 3 smd rect (at -2.70 -0.7 165) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 165) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 82 "LED_7"))
+        (pad 4 smd rect (at -2.70 0.7 165) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 89 "LED_8"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -4209,38 +4126,38 @@
       )
     
       
-      (segment (start 162.690 110.614) (end 162.206 109.869) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 162.206 109.869) (end 162.415 109.091) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 163.366 110.795) (end 162.690 110.614) (width 0.25) (layer "F.Cu") (net 31))
-      (via (at 162.415 109.091) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
-      (segment (start 163.728 109.443) (end 162.415 109.091) (width 0.25) (layer "B.Cu") (net 31))
+      (segment (start 155.690 113.944) (end 155.206 113.199) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 155.206 113.199) (end 155.415 112.421) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 156.366 114.125) (end 155.690 113.944) (width 0.25) (layer "F.Cu") (net 31))
+      (via (at 155.415 112.421) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
+      (segment (start 156.728 112.773) (end 155.415 112.421) (width 0.25) (layer "B.Cu") (net 31))
       
-      (segment (start 161.193 110.213) (end 163.366 110.795) (width 0.15) (layer "B.Cu") (net 89))
-      (via (at 161.193 110.213) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 89))
-      (segment (start 163.728 109.443) (end 163.177 108.482) (width 0.15) (layer "F.Cu") (net 89))
-      (segment (start 163.177 108.482) (end 162.165 108.211) (width 0.15) (layer "F.Cu") (net 89))
-      (segment (start 161.648 108.513) (end 161.193 110.213) (width 0.15) (layer "F.Cu") (net 89))
-      (segment (start 162.165 108.211) (end 161.648 108.513) (width 0.15) (layer "F.Cu") (net 89))
+      (segment (start 154.193 113.543) (end 156.366 114.125) (width 0.15) (layer "B.Cu") (net 80))
+      (via (at 154.193 113.543) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 80))
+      (segment (start 156.728 112.773) (end 156.177 111.812) (width 0.15) (layer "F.Cu") (net 80))
+      (segment (start 156.177 111.812) (end 155.165 111.541) (width 0.15) (layer "F.Cu") (net 80))
+      (segment (start 154.648 111.843) (end 154.193 113.543) (width 0.15) (layer "F.Cu") (net 80))
+      (segment (start 155.165 111.541) (end 154.648 111.843) (width 0.15) (layer "F.Cu") (net 80))
       
-      (segment (start 169.258 112.374) (end 170.049 111.971) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 170.049 111.971) (end 170.258 111.192) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 168.582 112.193) (end 169.258 112.374) (width 0.25) (layer "B.Cu") (net 29))
-      (via (at 170.258 111.192) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
-      (segment (start 168.944 110.840) (end 170.258 111.192) (width 0.25) (layer "F.Cu") (net 29))
+      (segment (start 162.258 115.704) (end 163.049 115.301) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 163.049 115.301) (end 163.258 114.522) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 161.582 115.523) (end 162.258 115.704) (width 0.25) (layer "B.Cu") (net 29))
+      (via (at 163.258 114.522) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
+      (segment (start 161.944 114.170) (end 163.258 114.522) (width 0.25) (layer "F.Cu") (net 29))
       
-      (segment (start 170.755 112.775) (end 168.582 112.193) (width 0.15) (layer "F.Cu") (net 82))
-      (via (at 170.755 112.775) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 82))
-      (segment (start 168.944 110.840) (end 169.902 110.284) (width 0.15) (layer "B.Cu") (net 82))
-      (segment (start 169.902 110.284) (end 170.914 110.556) (width 0.15) (layer "B.Cu") (net 82))
-      (segment (start 171.211 111.075) (end 170.755 112.775) (width 0.15) (layer "B.Cu") (net 82))
-      (segment (start 170.914 110.556) (end 171.211 111.075) (width 0.15) (layer "B.Cu") (net 82))
+      (segment (start 163.755 116.105) (end 161.582 115.523) (width 0.15) (layer "F.Cu") (net 89))
+      (via (at 163.755 116.105) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 89))
+      (segment (start 161.944 114.170) (end 162.902 113.614) (width 0.15) (layer "B.Cu") (net 89))
+      (segment (start 162.902 113.614) (end 163.914 113.886) (width 0.15) (layer "B.Cu") (net 89))
+      (segment (start 164.211 114.405) (end 163.755 116.105) (width 0.15) (layer "B.Cu") (net 89))
+      (segment (start 163.914 113.886) (end 164.211 114.405) (width 0.15) (layer "B.Cu") (net 89))
     
 
       (module "ceoloide:led_SK6812mini-e (per-key, reversible)" 
         (layer B.Cu) (tedit 5F70BC98)
-        (at 192.41920040000002 117.31622 240)
+        (at 177.582135 121.7647071 150)
 
-        (fp_text reference "LED18" (at -4.75 0 330) (layer B.SilkS) hide
+        (fp_text reference "LED17" (at -4.75 0 240) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)))
         )
 
@@ -4268,17 +4185,17 @@
     
         (fp_line (start -3.8 1.6) (end -2.2 1.6) (layer F.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 1.6) (layer F.SilkS) (width 0.12))
-        (pad 4 smd rect (at -2.7 -0.7 240) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 90 "ULED_6"))
-        (pad 3 smd rect (at -2.7 0.7 240) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 29 "GND"))
-        (pad 1 smd rect (at 2.7 -0.7 240) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 31 "VCC"))
-        (pad 2 smd rect (at 2.7 0.7 240) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 87 "LED_1"))
+        (pad 4 smd rect (at -2.7 -0.7 150) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 82 "LED_7"))
+        (pad 3 smd rect (at -2.7 0.7 150) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 29 "GND"))
+        (pad 1 smd rect (at 2.7 -0.7 150) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 31 "VCC"))
+        (pad 2 smd rect (at 2.7 0.7 150) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 89 "LED_8"))
         
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 240) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 87 "LED_1"))
-        (pad 1 smd rect (at 2.70 0.7 240) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 240) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 240) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 90 "ULED_6"))
+        (pad 2 smd rect (at 2.70 -0.7 150) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 89 "LED_8"))
+        (pad 1 smd rect (at 2.70 0.7 150) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 150) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 150) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 82 "LED_7"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -4292,31 +4209,114 @@
       )
     
       
-      (segment (start 191.325 120.611) (end 190.481 120.885) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 190.481 120.885) (end 189.783 120.482) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 191.675 120.004) (end 191.325 120.611) (width 0.25) (layer "F.Cu") (net 31))
-      (via (at 189.783 120.482) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
-      (segment (start 190.463 119.304) (end 189.783 120.482) (width 0.25) (layer "B.Cu") (net 31))
+      (segment (start 174.288 120.671) (end 174.013 119.826) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 174.013 119.826) (end 174.416 119.128) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 174.894 121.021) (end 174.288 120.671) (width 0.25) (layer "F.Cu") (net 31))
+      (via (at 174.416 119.128) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
+      (segment (start 175.594 119.808) (end 174.416 119.128) (width 0.25) (layer "B.Cu") (net 31))
       
-      (segment (start 190.550 121.953) (end 191.675 120.004) (width 0.15) (layer "B.Cu") (net 87))
-      (via (at 190.550 121.953) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 87))
-      (segment (start 190.463 119.304) (end 189.393 119.588) (width 0.15) (layer "F.Cu") (net 87))
-      (segment (start 189.393 119.588) (end 188.869 120.496) (width 0.15) (layer "F.Cu") (net 87))
-      (segment (start 189.026 121.073) (end 190.550 121.953) (width 0.15) (layer "F.Cu") (net 87))
-      (segment (start 188.869 120.496) (end 189.026 121.073) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 172.945 119.896) (end 174.894 121.021) (width 0.15) (layer "B.Cu") (net 89))
+      (via (at 172.945 119.896) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 89))
+      (segment (start 175.594 119.808) (end 175.310 118.738) (width 0.15) (layer "F.Cu") (net 89))
+      (segment (start 175.310 118.738) (end 174.402 118.214) (width 0.15) (layer "F.Cu") (net 89))
+      (segment (start 173.825 118.372) (end 172.945 119.896) (width 0.15) (layer "F.Cu") (net 89))
+      (segment (start 174.402 118.214) (end 173.825 118.372) (width 0.15) (layer "F.Cu") (net 89))
       
-      (segment (start 194.725 114.722) (end 194.541 113.853) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 194.541 113.853) (end 193.843 113.450) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 194.375 115.328) (end 194.725 114.722) (width 0.25) (layer "B.Cu") (net 29))
-      (via (at 193.843 113.450) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
-      (segment (start 193.163 114.628) (end 193.843 113.450) (width 0.25) (layer "F.Cu") (net 29))
+      (segment (start 180.177 124.071) (end 181.045 123.886) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 181.045 123.886) (end 181.448 123.188) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 179.570 123.721) (end 180.177 124.071) (width 0.25) (layer "B.Cu") (net 29))
+      (via (at 181.448 123.188) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
+      (segment (start 180.270 122.508) (end 181.448 123.188) (width 0.25) (layer "F.Cu") (net 29))
       
-      (segment (start 195.500 113.379) (end 194.375 115.328) (width 0.15) (layer "F.Cu") (net 90))
-      (via (at 195.500 113.379) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 90))
-      (segment (start 193.163 114.628) (end 192.874 113.559) (width 0.15) (layer "B.Cu") (net 90))
-      (segment (start 192.874 113.559) (end 193.398 112.651) (width 0.15) (layer "B.Cu") (net 90))
-      (segment (start 193.976 112.499) (end 195.500 113.379) (width 0.15) (layer "B.Cu") (net 90))
-      (segment (start 193.398 112.651) (end 193.976 112.499) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 181.519 124.846) (end 179.570 123.721) (width 0.15) (layer "F.Cu") (net 82))
+      (via (at 181.519 124.846) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 82))
+      (segment (start 180.270 122.508) (end 181.339 122.219) (width 0.15) (layer "B.Cu") (net 82))
+      (segment (start 181.339 122.219) (end 182.247 122.743) (width 0.15) (layer "B.Cu") (net 82))
+      (segment (start 182.399 123.322) (end 181.519 124.846) (width 0.15) (layer "B.Cu") (net 82))
+      (segment (start 182.247 122.743) (end 182.399 123.322) (width 0.15) (layer "B.Cu") (net 82))
+    
+
+      (module "ceoloide:led_SK6812mini-e (per-key, reversible)" 
+        (layer B.Cu) (tedit 5F70BC98)
+        (at 194.55190639999998 134.8394198 135)
+
+        (fp_text reference "LED18" (at -4.75 0 225) (layer B.SilkS) hide
+          (effects (font (size 1 1) (thickness 0.15)))
+        )
+
+        (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 1.6 -1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -1.6 -1.05) (end -2.94 -1.05) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -2.94 -1.05) (end -2.94 -0.37) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -2.94 -0.37) (end -1.6 -0.37) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -1.6 0.35) (end -2.94 0.35) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -2.94 1.03) (end -1.6 1.03) (layer Dwgs.User) (width 0.12))
+        (fp_line (start -2.94 0.35) (end -2.94 1.03) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 1.6 1.03) (end 2.94 1.03) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 2.94 0.35) (end 1.6 0.35) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 2.94 1.03) (end 2.94 0.35) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 1.6 -0.37) (end 2.94 -0.37) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 2.94 -1.05) (end 1.6 -1.05) (layer Dwgs.User) (width 0.12))
+        (fp_line (start 2.94 -0.37) (end 2.94 -1.05) (layer Dwgs.User) (width 0.12))
+    
+    (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
+    (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
+    (fp_line (start -1 -1.4) (end -1 1.4) (layer Dwgs.User) (width 0.12))
+    (fp_line (start 1 -1.4) (end 1 1.4) (layer Dwgs.User) (width 0.12))
+    
+        (fp_line (start -3.8 1.6) (end -2.2 1.6) (layer F.SilkS) (width 0.12))
+        (fp_line (start -3.8 0) (end -3.8 1.6) (layer F.SilkS) (width 0.12))
+        (pad 4 smd rect (at -2.7 -0.7 135) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 90 "ULED_6"))
+        (pad 3 smd rect (at -2.7 0.7 135) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 29 "GND"))
+        (pad 1 smd rect (at 2.7 -0.7 135) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 31 "VCC"))
+        (pad 2 smd rect (at 2.7 0.7 135) (size 1.4 1) (layers F.Cu F.Paste F.Mask) (net 87 "LED_1"))
+        
+        (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
+        (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
+        (pad 2 smd rect (at 2.70 -0.7 135) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 87 "LED_1"))
+        (pad 1 smd rect (at 2.70 0.7 135) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 135) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 135) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 90 "ULED_6"))
+      
+    (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
+    (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
+    (fp_line (start -1 -1.4) (end -1 1.4) (layer Dwgs.User) (width 0.12))
+    (fp_line (start 1 -1.4) (end 1 1.4) (layer Dwgs.User) (width 0.12))
+    
+        (fp_line (start -1.8 -1.55) (end -1.8 1.55) (layer Edge.Cuts) (width 0.12))
+        (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
+        (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+        (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+      )
+    
+      
+      (segment (start 191.653 132.930) (end 191.606 132.043) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 191.606 132.043) (end 192.176 131.474) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 192.148 133.425) (end 191.653 132.930) (width 0.25) (layer "F.Cu") (net 31))
+      (via (at 192.176 131.474) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
+      (segment (start 193.138 132.435) (end 192.176 131.474) (width 0.25) (layer "B.Cu") (net 31))
+      
+      (segment (start 190.557 131.834) (end 192.148 133.425) (width 0.15) (layer "B.Cu") (net 87))
+      (via (at 190.557 131.834) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 87))
+      (segment (start 193.138 132.435) (end 193.141 131.328) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 193.141 131.328) (end 192.399 130.587) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 191.801 130.590) (end 190.557 131.834) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 192.399 130.587) (end 191.801 130.590) (width 0.15) (layer "F.Cu") (net 87))
+      
+      (segment (start 196.461 137.739) (end 197.348 137.785) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 197.348 137.785) (end 197.918 137.215) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 195.966 137.244) (end 196.461 137.739) (width 0.25) (layer "B.Cu") (net 29))
+      (via (at 197.918 137.215) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
+      (segment (start 196.956 136.254) (end 197.918 137.215) (width 0.25) (layer "F.Cu") (net 29))
+      
+      (segment (start 197.557 138.835) (end 195.966 137.244) (width 0.15) (layer "F.Cu") (net 90))
+      (via (at 197.557 138.835) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 90))
+      (segment (start 196.956 136.254) (end 198.063 136.251) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 198.063 136.251) (end 198.804 136.992) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 198.802 137.590) (end 197.557 138.835) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 198.804 136.992) (end 198.802 137.590) (width 0.15) (layer "B.Cu") (net 90))
     
 
       (module "ceoloide:led_SK6812mini-e (underglow, reversible)" 
@@ -4803,11 +4803,13 @@
 (gr_line (start 164.966445 41.04422476329155) (end 164.966445 42.54003411204007) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 165.47394415076104 43.03997791277865) (end 183.45917122939375 42.77019950801905) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 183.96667038015485 43.26992130873259) (end 183.96722317371228 44.51481240004068) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 204.4024451 106.02118640000002) (end 189.53461200661962 131.01926453205544) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 188.8548751066196 131.19668733205546) (end 173.65217521437296 122.41940443517656) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 173.533396814373 122.36994343517657) (end 137.48845271108377 112.56655937095499) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 137.40332929157933 112.53485706159397) (end 126.84466306000907 107.46728833906015) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 126.59146074050466 107.41942002969911) (end 92.41319770323031 109.94573156980263) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 204.4024451 106.02118640000002) (end 211.26934923259245 131.2007277266382) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 211.1405195199005 131.68583548009948) (end 198.27245950682325 144.55389549317673) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 197.5573001306715 144.5456552181502) (end 185.2184018103768 131.6245719172887) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 185.11474537091743 131.54156036435938) (end 167.73632242747522 121.07577102297391) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 167.61101352447525 121.02201021014679) (end 149.42297909295323 116.01776895205687) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 149.37827902664569 116.003177061327) (end 126.82809141312292 107.44890800214452) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 126.61389341312291 107.4177619021445) (end 92.41319770323031 109.94573156980263) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 184.46722317371226 45.01459040000001) (end 204.2174451 45.01459040000001) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 204.7174451 45.51459040000001) (end 204.7174451 105.34161580612954) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 204.65045780000003 105.59161580612948) (end 204.4024451 106.02118640000002) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -4824,10 +4826,12 @@
 (gr_arc (start 183.96722317371226 44.51481240003829) (mid 184.11374827371225 44.86822230003829) (end 184.46722317371226 45.01459040003829) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 204.7174451 45.51459040000001) (mid 204.5709985 45.16103700000001) (end 204.2174451 45.01459040000001) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 204.6504578 105.59161580612954) (mid 204.70040799999998 105.47102530612953) (end 204.7174451 105.34161580612954) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 188.8548751066196 131.1966873320555) (mid 189.2311528066196 131.2474658320555) (end 189.5346120066196 131.01926453205547) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 173.65217521437296 122.41940443517656) (mid 173.59438361437296 122.39083733517657) (end 173.53339681437296 122.36994343517657) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 137.40332931108378 112.534857070955) (mid 137.44516961108377 112.55264527095501) (end 137.48845271108377 112.566559370955) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 126.84466304050464 107.46728832969912) (mid 126.72119864050464 107.42676222969911) (end 126.59146074050464 107.41942002969911) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 211.14051951990052 131.6858354800995) (mid 211.27021541990052 131.4606182800995) (end 211.2693492199005 131.2007276800995) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 197.55730020682324 144.5456551931767) (mid 197.91314540682325 144.70030889317673) (end 198.27245950682325 144.5538953931767) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 185.21840173422504 131.62457194226215) (mid 185.16934173422504 131.57960944226215) (end 185.11474533422503 131.54156034226216) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 167.7363223907828 121.07577100087666) (mid 167.6755091907828 121.04459890087666) (end 167.6110134907828 121.02201020087666) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 149.37827902664569 116.003177061327) (mid 149.4004574266457 116.010998761327) (end 149.42297912664569 116.017768961327) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 126.8280914131229 107.4489080021445) (mid 126.72269801312291 107.4216051021445) (end 126.61389341312291 107.4177619021445) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 91.8782446032303 109.49068746980264) (mid 92.0523782032303 109.82794416980263) (end 92.4131977032303 109.94573156980263) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 
 )

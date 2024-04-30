@@ -91,6 +91,7 @@ units:
   internal_distance_between_plates: 4
 
   # Thumb splay
+  splay_thumb_near: 15
   splay_thumb_middle: 15
   splay_thumb_far: 15
 
@@ -197,12 +198,13 @@ points:
           - key
           - thumb_key
       anchor:
-        ref: matrix_middle_bottom
-        shift: [0.5 ks, -kp -3]
+        ref: matrix_index_bottom
+        shift: [0.5 ks -5, -kp -3]
       columns:
         near:
           key:
             column_net: C3
+            splay: -splay_thumb_near
           rows:
             home.key:
               led_prev: LED_8
@@ -220,7 +222,6 @@ points:
         far:
           key:
             splay: -splay_thumb_far
-            rotate: 90
             column_net: C5
             stagger: -3
             spread: ks + 3.463
@@ -314,20 +315,30 @@ points:
       anchor:
         - ref: thumbfan_near_home
           shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
+    plate_outline_bottom_2a:
+      key.tags:
+        - helper
+      anchor:
+        - ref: thumbfan_mid_home
+          shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
+    plate_outline_bottom_2b:
+      key.tags:
+        - helper
+      anchor:
+        - ref: thumbfan_far_home
+          shift: [-ks * 0.47 - 0.01, -kp * 0.475 - 0.05]
     plate_outline_bottom_3:
       key.tags:
         - helper
       anchor: 
         - ref: thumbfan_far_home
-          shift: [-ks * 0.725 - 0.028,kp * 0.475 - 0.009]
-          affect: ['x','y']
+          shift: [ks*.5, -kp*.5]
     plate_outline_bottom_4:
       key.tags:
         - helper
       anchor: 
         - ref: thumbfan_far_home
-          shift: [-ks * 0.725 - 0.028,-kp * 0.48 + 0.023]
-          affect: ['x','y']
+          shift: [ks*.5, kp*.5]
 
     mcu_cover_top_left:
       key.tags:
@@ -528,6 +539,8 @@ outlines:
         - ref: plate_additional_outline_bottom_right
         - ref: plate_outline_bottom_4
         - ref: plate_outline_bottom_3
+        - ref: plate_outline_bottom_2b
+        - ref: plate_outline_bottom_2a
         - ref: plate_outline_bottom_2
         - ref: plate_outline_bottom_1
         - ref: matrix_pinky_bottom
