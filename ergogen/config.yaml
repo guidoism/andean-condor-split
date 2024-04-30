@@ -123,7 +123,7 @@ points:
               led_next: LED_16
         ring:
           key:
-            stagger: 0.25 kp
+            stagger: 0.63 kp
             column_net: C2
           rows:
             top.key:
@@ -137,7 +137,7 @@ points:
               led_next: LED_15
         middle:
           key:
-            stagger: 0.125 kp
+            stagger: 0.26 kp
             column_net: C3
           rows:
             top.key:
@@ -151,7 +151,7 @@ points:
               led_next: LED_10
         index:
           key:
-            stagger: -0.125 kp
+            stagger: -0.32 kp
             column_net: C4
           rows:
             top.key:
@@ -165,7 +165,7 @@ points:
               led_next: LED_7
         inner:
           key:
-            stagger: -0.125 kp
+            stagger: -0.11 kp
             column_net: C5
           rows:
             top.key:
@@ -306,7 +306,7 @@ points:
         - helper
       anchor:
         - ref: matrix_ring_bottom
-          shift: [ks * 0.465 + 0.005, -kp * 0.74 + 0.07]
+          shift: [ks * 0.465 + 0.005, -kp * 0.74 + 0.07 -7]
     plate_outline_bottom_2:
       key.tags:
         - helper
@@ -505,17 +505,17 @@ outlines:
         - ref: matrix_pinky_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_ring_top
-          shift: [-ks * 0.47 +0.01, kp * 0.225 -0.014]
+          shift: [-ks * 0.47 +0.01, kp * 0.225 -0.014 -7]
         - ref: matrix_ring_top
           shift: [-ks * 0.47 +0.01, kp * 0.475 -0.015]
         - ref: matrix_middle_top
-          shift: [-ks * 0.47 +0.01, kp * 0.35 -0.015]
+          shift: [-ks * 0.47 +0.01, kp * 0.35 -0.015 -2.5]
         - ref: matrix_middle_top
           shift: [-ks * 0.47 +0.01, kp * 0.468 -0.005]
         - ref: matrix_middle_top
           shift: [ks * 0.478, kp * 0.468 -0.005]
         - ref: matrix_middle_top
-          shift: [ks * 0.478, kp * 0.35 -0.015]
+          shift: [ks * 0.478, kp * 0.35 -0.015 -3.5]
         - ref: matrix_index_top
           shift: [ks * 0.478, kp * 0.475 -0.015]
         - ref: matrix_index_top
