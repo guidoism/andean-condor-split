@@ -25,9 +25,9 @@ function _screws_extrude_1_outline_fn(){
 ).union(
     CAG.circle({"center":[165.3524451,-60.0105904],"radius":1.1})
 ).union(
-    CAG.circle({"center":[89.7081708,-91.3641299],"radius":1.1})
+    CAG.circle({"center":[108.384445,-76.9195904],"radius":1.1})
 ).union(
-    CAG.circle({"center":[88.0522117,-72.4364306],"radius":1.1})
+    CAG.circle({"center":[107.384445,-57.9195904],"radius":1.1})
 ).extrude({ offset: [0, 0, 1] });
 }
 

@@ -194,16 +194,16 @@
   
 
   (module "ceoloide:mounting_hole_npth" (layer F.Cu) (tedit 5F1B9159)
-      (at 88.05221169999999 72.4364306 5)
-      (fp_text reference "MH3" (at 0 2.55 5) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
-      (pad "" np_thru_hole circle (at 0 0 5) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+      (at 107.384445 57.919590400000004 0)
+      (fp_text reference "MH3" (at 0 2.55 0) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
+      (pad "" np_thru_hole circle (at 0 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
   
 
   (module "ceoloide:mounting_hole_npth" (layer F.Cu) (tedit 5F1B9159)
-      (at 89.70817079999999 91.3641299 5)
-      (fp_text reference "MH4" (at 0 2.55 5) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
-      (pad "" np_thru_hole circle (at 0 0 5) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+      (at 108.384445 76.9195904 0)
+      (fp_text reference "MH4" (at 0 2.55 0) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
+      (pad "" np_thru_hole circle (at 0 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
   
 

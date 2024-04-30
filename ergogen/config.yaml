@@ -396,14 +396,14 @@ points:
         - helper
         - screw
       anchor:
-        - ref: matrix_pinky_top
-          shift: [-0.5 ks, -0.5 kp]
+        - ref: matrix_ring_top
+          shift: [-0.5 ks -1, -0.5 kp]
     screw_pcb_left_bottom:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_pinky_home
+        - ref: matrix_ring_home
           shift: [-0.5 ks, -0.5 kp]
     screw_pcb_right_top:
       key.tags:
