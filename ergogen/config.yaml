@@ -222,12 +222,11 @@ points:
             splay: -splay_thumb_far
             rotate: 90
             column_net: C5
-            stagger: 2.122
+            stagger: -3
             spread: ks + 3.463
             tags:
               - key
               - thumb_key
-              - key_1_5u
           rows:
             home.key:
               led_prev: ULED_6

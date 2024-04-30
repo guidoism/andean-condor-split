@@ -222,7 +222,7 @@
   
 
   (module "ceoloide:mounting_hole_npth" (layer F.Cu) (tedit 5F1B9159)
-      (at 179.1254966 103.9282479 60)
+      (at 177.7998255 108.87572 60)
       (fp_text reference "MH7" (at 0 2.55 60) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
       (pad "" np_thru_hole circle (at 0 0 60) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
@@ -1012,7 +1012,7 @@
 
         
       (module MX (layer F.Cu) (tedit 5DD4F656)
-      (at 189.6312508 109.9937479 60)
+      (at 188.3055797 114.94122 60)
 
       
       (fp_text reference "S18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1346,7 +1346,7 @@
         
 
         (module "ceoloide:diode_tht_sod123" (layer B.Cu) (tedit 5B24D78E)
-            (at 192.1837671 102.9226599 150)
+            (at 190.85809600000002 107.870132 150)
             (fp_text reference "D18" (at 0 0 150) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
         
             (fp_line (start 0.25 0) (end 0.75 0) (layer B.SilkS) (width 0.1))
@@ -1652,7 +1652,7 @@
         
 
         (module "ceoloide:diode_tht_sod123" (layer F.Cu) (tedit 5B24D78E)
-            (at 184.7837671 115.7398359 150)
+            (at 183.458096 120.687308 150)
             (fp_text reference "D36" (at 0 0 150) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
         
             (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
@@ -4238,7 +4238,7 @@
 
       (module "ceoloide:led_SK6812mini-e (per-key, reversible)" 
         (layer B.Cu) (tedit 5F70BC98)
-        (at 193.74487150000002 112.3687479 240)
+        (at 192.41920040000002 117.31622 240)
 
         (fp_text reference "LED18" (at -4.75 0 330) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)))
@@ -4292,31 +4292,31 @@
       )
     
       
-      (segment (start 192.651 115.663) (end 191.807 115.938) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 191.807 115.938) (end 191.109 115.535) (width 0.25) (layer "F.Cu") (net 31))
-      (segment (start 193.001 115.057) (end 192.651 115.663) (width 0.25) (layer "F.Cu") (net 31))
-      (via (at 191.109 115.535) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
-      (segment (start 191.789 114.357) (end 191.109 115.535) (width 0.25) (layer "B.Cu") (net 31))
+      (segment (start 191.325 120.611) (end 190.481 120.885) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 190.481 120.885) (end 189.783 120.482) (width 0.25) (layer "F.Cu") (net 31))
+      (segment (start 191.675 120.004) (end 191.325 120.611) (width 0.25) (layer "F.Cu") (net 31))
+      (via (at 189.783 120.482) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 31))
+      (segment (start 190.463 119.304) (end 189.783 120.482) (width 0.25) (layer "B.Cu") (net 31))
       
-      (segment (start 191.876 117.006) (end 193.001 115.057) (width 0.15) (layer "B.Cu") (net 87))
-      (via (at 191.876 117.006) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 87))
-      (segment (start 191.789 114.357) (end 190.718 114.641) (width 0.15) (layer "F.Cu") (net 87))
-      (segment (start 190.718 114.641) (end 190.194 115.548) (width 0.15) (layer "F.Cu") (net 87))
-      (segment (start 190.352 116.126) (end 191.876 117.006) (width 0.15) (layer "F.Cu") (net 87))
-      (segment (start 190.194 115.548) (end 190.352 116.126) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 190.550 121.953) (end 191.675 120.004) (width 0.15) (layer "B.Cu") (net 87))
+      (via (at 190.550 121.953) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 87))
+      (segment (start 190.463 119.304) (end 189.393 119.588) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 189.393 119.588) (end 188.869 120.496) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 189.026 121.073) (end 190.550 121.953) (width 0.15) (layer "F.Cu") (net 87))
+      (segment (start 188.869 120.496) (end 189.026 121.073) (width 0.15) (layer "F.Cu") (net 87))
       
-      (segment (start 196.051 109.774) (end 195.867 108.906) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 195.867 108.906) (end 195.169 108.503) (width 0.25) (layer "B.Cu") (net 29))
-      (segment (start 195.701 110.380) (end 196.051 109.774) (width 0.25) (layer "B.Cu") (net 29))
-      (via (at 195.169 108.503) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
-      (segment (start 194.489 109.680) (end 195.169 108.503) (width 0.25) (layer "F.Cu") (net 29))
+      (segment (start 194.725 114.722) (end 194.541 113.853) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 194.541 113.853) (end 193.843 113.450) (width 0.25) (layer "B.Cu") (net 29))
+      (segment (start 194.375 115.328) (end 194.725 114.722) (width 0.25) (layer "B.Cu") (net 29))
+      (via (at 193.843 113.450) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 29))
+      (segment (start 193.163 114.628) (end 193.843 113.450) (width 0.25) (layer "F.Cu") (net 29))
       
-      (segment (start 196.826 108.432) (end 195.701 110.380) (width 0.15) (layer "F.Cu") (net 90))
-      (via (at 196.826 108.432) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 90))
-      (segment (start 194.489 109.680) (end 194.199 108.612) (width 0.15) (layer "B.Cu") (net 90))
-      (segment (start 194.199 108.612) (end 194.723 107.704) (width 0.15) (layer "B.Cu") (net 90))
-      (segment (start 195.302 107.552) (end 196.826 108.432) (width 0.15) (layer "B.Cu") (net 90))
-      (segment (start 194.723 107.704) (end 195.302 107.552) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 195.500 113.379) (end 194.375 115.328) (width 0.15) (layer "F.Cu") (net 90))
+      (via (at 195.500 113.379) (size 0.56) (drill 0.3) (layers "F.Cu" "B.Cu") (net 90))
+      (segment (start 193.163 114.628) (end 192.874 113.559) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 192.874 113.559) (end 193.398 112.651) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 193.976 112.499) (end 195.500 113.379) (width 0.15) (layer "B.Cu") (net 90))
+      (segment (start 193.398 112.651) (end 193.976 112.499) (width 0.15) (layer "B.Cu") (net 90))
     
 
       (module "ceoloide:led_SK6812mini-e (underglow, reversible)" 
@@ -4803,10 +4803,10 @@
 (gr_line (start 164.966445 41.04422476329155) (end 164.966445 42.54003411204007) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 165.47394415076104 43.03997791277865) (end 183.45917122939375 42.77019950801905) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 183.96667038015485 43.26992130873259) (end 183.96722317371228 44.51481240004068) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 204.4024451 106.02118640000002) (end 190.86864454351888 126.1091037392597) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 190.20397584351886 126.26274233925967) (end 175.00808706223268 117.489391839137) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 174.82271206223268 117.42659853913699) (end 137.52391425873893 112.56494858875345) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 137.3721942392345 112.5199139793924) (end 126.84466306000907 107.46728833906016) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 204.4024451 106.02118640000002) (end 189.53461200661962 131.01926453205544) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 188.8548751066196 131.19668733205546) (end 173.65217521437296 122.41940443517656) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 173.533396814373 122.36994343517657) (end 137.48845271108377 112.56655937095499) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 137.40332929157933 112.53485706159397) (end 126.84466306000907 107.46728833906015) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 126.59146074050466 107.41942002969911) (end 92.41319770323031 109.94573156980263) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 184.46722317371226 45.01459040000001) (end 204.2174451 45.01459040000001) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 204.7174451 45.51459040000001) (end 204.7174451 105.34161580612954) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -4824,9 +4824,9 @@
 (gr_arc (start 183.96722317371226 44.51481240003829) (mid 184.11374827371225 44.86822230003829) (end 184.46722317371226 45.01459040003829) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 204.7174451 45.51459040000001) (mid 204.5709985 45.16103700000001) (end 204.2174451 45.01459040000001) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 204.6504578 105.59161580612954) (mid 204.70040799999998 105.47102530612953) (end 204.7174451 105.34161580612954) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 190.2039758435189 126.26274233925966) (mid 190.56658204351888 126.31688453925965) (end 190.86864454351888 126.10910373925965) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 175.00808706223268 117.489391839137) (mid 174.91850206223268 117.448836139137) (end 174.82271206223268 117.426598539137) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 137.37219425873894 112.51991398875344) (mid 137.44626115873893 112.54847228875344) (end 137.52391425873893 112.56494858875345) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 188.8548751066196 131.1966873320555) (mid 189.2311528066196 131.2474658320555) (end 189.5346120066196 131.01926453205547) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 173.65217521437296 122.41940443517656) (mid 173.59438361437296 122.39083733517657) (end 173.53339681437296 122.36994343517657) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 137.40332931108378 112.534857070955) (mid 137.44516961108377 112.55264527095501) (end 137.48845271108377 112.566559370955) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 126.84466304050464 107.46728832969912) (mid 126.72119864050464 107.42676222969911) (end 126.59146074050464 107.41942002969911) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 91.8782446032303 109.49068746980264) (mid 92.0523782032303 109.82794416980263) (end 92.4131977032303 109.94573156980263) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 
